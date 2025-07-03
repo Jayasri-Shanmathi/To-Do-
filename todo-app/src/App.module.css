@@ -1,0 +1,55 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  background-color: #ffffffcc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.toggleButton {
+  padding: 10px 20px;
+  border: 2px solid #6c63ff;
+  border-radius: 50px;
+  background-color: white;
+  color: #6c63ff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggleButton:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.active {
+  background-color: #6c63ff;
+  color: white;
+}
